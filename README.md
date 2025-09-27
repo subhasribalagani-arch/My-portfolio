@@ -1,5 +1,6 @@
 # My-portfolio
-my portfolio
+my portfolio  
+
 🌐 Portfolio Website
 
 A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, and contact details.
@@ -43,7 +44,7 @@ portfolio-project/
 
 Clone this repository:
 
-git clone 
+git clone : https://github.com/subhasribalagani-arch/My-portfolio
 
 
 Open index.html in your browser.
