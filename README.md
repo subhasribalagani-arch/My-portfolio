@@ -50,7 +50,8 @@ Open index.html in your browser.
 
 📸 Screenshots / Wireframe
 
-(Add wireframe or screenshots of your portfolio website here)
+https://github.com/subhasribalagani-arch/My-portfolio/blob/4c38561c4f57768a1bb141492850315c8bb1c6ee/Screenshot_27-9-2025_144256_.jpeg
+
 
 🔮 Future Enhancements
 
