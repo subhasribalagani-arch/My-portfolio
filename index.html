@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="toggle-btn">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Your Name</span></h1>
+      <p>A passionate web developer who loves building creative websites.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I’m a web developer skilled in HTML, CSS, JavaScript, and modern frameworks. 
+       I enjoy creating responsive and user-friendly websites that make a difference.</p>
+  </section>
+
+  <!-- Projects -->
+  
+<!-- Projects -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <!-- Project 1: Digital Clock -->
+    <div class="card">
+      <img src="https://github.com/subhasribalagani-arch/DIgitalclock/blob/main/Screenshot_7-9-2025_181249_127.0.0.1.jpeg?raw=true/300*200" alt="Digital Clock Project">
+      <h3>Digital Clock</h3>
+      <p>A simple and responsive digital clock built using HTML, CSS, and JavaScript with a toggle mode feature.</p>
+    </div>
+
+    <!-- Project 2: To-Do List -->
+    <div class="card">
+      <img src="https://github.com/subhasribalagani-arch/To-Do-List/blob/main/Screenshot_24-9-2025_152522_127.0.0.1.jpeg?raw=true/300x200" alt="To-Do List Project">
+      <h3>To-Do List</h3>
+      <p>A task management app created using HTML, CSS, and JavaScript with local storage to save tasks.</p>
+    </div>
+
+    <!-- Project 3: Iphone product landing -->
+    <div class="card">
+      <img src="https://github.com/subhasribalagani-arch/Iphone-product-landing/blob/main/Screenshot_24-9-2025_194421_.jpeg?raw=true/300x200" alt="Expense Tracker Project">
+      <h3>Iphone product landing</h3>
+      <p>Iphone product landing is a new version and introducing the website of the product.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Subhasri balagani. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
